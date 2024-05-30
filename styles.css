@@ -7,8 +7,9 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    width: 1250px;
+    margin: 0 auto;
 }
 
 .menu-container {
@@ -61,7 +62,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 25px 125px 75px 125px;
+    padding: 25px 125px 100px 125px;
     
 }
 
@@ -84,6 +85,7 @@ button {
     border: none;
     border-radius: 8px;
     padding: 8px 28px;
+    margin-top: 5px;
 }
 
 
@@ -107,7 +109,7 @@ button {
     text-align: center;
     width: 1250px;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .boxContainer {
@@ -119,13 +121,19 @@ button {
     color: #1f2937;
     padding-top: 20px;
     padding-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 .box {
     width: 140px;
     height: 150px;
-    border: 3px solid #3882f6;
+    border: 4px solid #3882f6;
     border-radius: 10px;
+}
+
+.boxContent p {
+    color: #595a5c;
+    margin-top: 10px;
 }
 
 .contentTwo {
@@ -161,13 +169,35 @@ button {
 }
 
 .blueBox {
+    display: flex;
     width: 1000px;
-    height: 100px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
     align-self: center;
     background-color: #3882f6;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blueBoxText h2,p {
+    margin: 0;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.ctaBtn {
+    margin-left: 150px;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    padding: 0px 10px;
 }
 
 footer {
     background-color: #1f2937;
-    
+    color: #f9faf8;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 30px;
 }
